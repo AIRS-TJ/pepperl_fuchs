@@ -2,9 +2,13 @@
 
 ## 安装
 
-首次安装cartographer_ros
+首次要安装好cartographer_ros
 
+然后在src下
 
+	$ git clone https://github.com/AIRS-TJ/pepperl_fuchs.git
+	
+再编译
 
 ## 倍加福激光使用
 
