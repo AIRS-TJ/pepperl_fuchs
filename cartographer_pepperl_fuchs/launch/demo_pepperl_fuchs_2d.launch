@@ -1,0 +1,9 @@
+<launch>
+  <param name="/use_sim_time" value="true" />
+
+  <include file="$(find cartographer_pepperl_fuchs)/launch/pepperl_fuchs_2d.launch" />
+
+  <node name="rviz" pkg="rviz" type="rviz" required="true"
+      args="-d $(find cartographer_pepperl_fuchs)/configuration_files/pepperl_fuchs_2d.rviz" />
+      
+</launch>

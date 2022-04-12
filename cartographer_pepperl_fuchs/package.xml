@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<package format="2">
+  <name>cartographer_pepperl_fuchs</name>
+  <version>0.3.0</version>
+  <description>
+    Cartographer configurations and launch files for pepperl_fuchs lidar.
+  </description>
+  <maintainer email="tianjiaoliao@cuhk.edu.cn">
+    The  Authors
+  </maintainer>
+  <license>Apache 2.0</license>
+
+  <url>https://github.com/AIRS-TJ/web_test</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>g++-static</build_depend>
+
+  <depend>cartographer_ros</depend>
+  <depend>message_runtime</depend>
+  <depend>roscpp</depend>
+  <depend>roslib</depend>
+
+  <test_depend>rosunit</test_depend>
+</package>
