@@ -1,7 +1,5 @@
 # pepperl_fuchs
 
-## 安装
-
 ## 1. Installation
 
 ### 1.1. Install enviroment
@@ -41,7 +39,7 @@ ros melodic install refer:http://wiki.ros.org/melodic/Installation/Ubuntu
 
 	$ catkin_make_isolated --install --use-ninja 
 
-## 倍加福激光使用
+## 2. 倍加福激光使用
 
 ### 接线通电
 
