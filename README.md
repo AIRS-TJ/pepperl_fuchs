@@ -38,6 +38,14 @@ ros melodic install refer:http://wiki.ros.org/melodic/Installation/Ubuntu
 	$ cd ~/catkin_ws/
 
 	$ catkin_make_isolated --install --use-ninja 
+	
+### 1.5. souce环境变量：
+
+	$ gedit ~/.bashrc 
+	
+	在末尾添加:
+	
+	source ~/catkin_ws/install_isolated/setup.bash
 
 ## 2. 倍加福激光使用
 
